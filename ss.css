@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  background-color: rgb(241, 248, 242);
+}
+  /* Style the header */
+  .header {
+    background-color: #fafbf9;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(250, 250, 250, 0.954);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgba(249, 251, 249, 0.902);
+    color: rgb(50, 5, 249);
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  nav {
+     text-align: center;
+     background-color: #a6e653bd;
+    }
+    
+    nav ul {
+     display: inline-block;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+    }
+    
+    nav ul li {
+     display: inline-block;
+    margin: 0 10px;
+    }
+    
+    nav ul li a {
+    display: block;
+     padding: 10px;
+     color: #0e37c1c5;
+     text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+    color: rgba(21, 42, 232, 0.776);
+    background-color: #ffffff;
+    }
+    .footer {
+      position: absolute;
+      width: 100%;
+      background: hwb(0 98% 2%);
+      text-align: center;
+      margin-top: 100px;
+  }
+  
